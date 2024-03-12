@@ -1,0 +1,20 @@
+Jegyzet:
+html:5 
+Így kell kezdeni!!!!
+
+<title> Valami cím </title>   -> Chromeba ez lesz legfelül az oldal neve
+
+<body>
+    <h1>
+        Szia, ez az én szuper oldalam.
+    </h1>    
+</body>
+        <h1> Valami felirat </h1> Felhasználó által látható felirat, félkövér és nagy betűtípussal. (Címsor)
+        <body> Valami felirat </body> Felhasználó által látható felirat.
+
+<p> Valami felirat </p>  -> bekezdés
+
+<em> szöveg </em> dőlt betű 
+<i> szöveg </i> dőlt betű 
+<b> szöveg </b> félkövér
+<strong> szöveg </strong> félkövér
