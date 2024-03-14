@@ -18,3 +18,10 @@ html:5
 <i> szöveg </i> dőlt betű 
 <b> szöveg </b> félkövér
 <strong> szöveg </strong> félkövér
+
+
+Terminál:
+git add .
+git commit -m "Init page."
+git pull
+git push
