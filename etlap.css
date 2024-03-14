@@ -1,6 +1,19 @@
+@import url('ts.googleapis.com/css?family=Quicksand|Open Sans|Roboto& display=swaphttps://fon');
+
 html{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 h1{
-    color: yellow;
+    color: brown;
+    font-family: 'Open Sans';        
+}
+
+thead{
+    color: rgb(12, 210, 12);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tbody{
+
+    font-family: 'Quicksand';
 }
