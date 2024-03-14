@@ -1,0 +1,27 @@
+@import url('ts.googleapis.com/css?family=Quicksand|Open Sans|Roboto& display=swaphttps://fon');
+
+html{
+    font-family: sans-serif, 'Times New Roman';
+}
+
+h1{
+    color:brown;
+    font-family: 'Open Sans', 'Times New Roman';
+}
+
+h2{
+    color: brown;
+    font-family: 'Open Sans', 'Times New Roman';
+}
+
+h4{
+    font-weight: lighter;
+}
+
+ul{
+    font-weight: lighter;
+}
+
+p{
+    font-weight: lighter;
+}

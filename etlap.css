@@ -5,7 +5,7 @@ html{
 }
 h1{
     color: brown;
-    font-family: 'Open Sans';        
+    font-family: 'Open Sans', 'Times New Roman';        
 }
 
 thead{
@@ -15,5 +15,5 @@ thead{
 
 tbody{
 
-    font-family: 'Quicksand';
+    font-family: 'Quicksand', 'Times New Roman';
 }
