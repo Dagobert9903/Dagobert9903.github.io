@@ -4,29 +4,118 @@ html {
     font-family: sans-serif, 'Times New Roman';
     margin-left: 100px;
     margin-right: 100px;
+    background-color: goldenrod;
+}
+
+body {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 a {
-    background-color: darkred;
-    ;
-    color: yellow;
-    display: inline-block;
+    background-color: brown;
+    color: gold;
     text-align: center;
-    margin: 1%;
+    box-shadow: 3px 3px 7px black;
+    height: 50px;
+    position:relative;
+    top: 10px;
+}
+
+#Progress {
+    position: relative;
+    left: 20%;
+}
+
+#Étlap {
+    position: relative;
+    left: 45%;
+}
+
+
+#Akciók {
+    position:relative;
+    left: 66%;
 }
 
 h1 {
     font-weight: bold;
     color: brown;
+    margin-left: 2%;
 }
 
 h2 {
     color: brown;
     font-weight: bold;
+    position: relative;
+    top: 15px;
+    display:inline-block;
+    margin-left: 1%;
 }
 
-#img1 {
-    width: 20%;
-    position:relative;
-    
+p {
+    font-size: larger;
+    font-family: 'Quicksand';
+    margin-left: 1%;
+}
+
+.kerdmenuben {
+    background-color:lightsalmon;
+    box-shadow: 5px 5px 10px black;
+    margin: 2%;
+    margin-bottom: 50px;
+}
+
+.elso {
+    display:flex;
+}
+
+#kérdmenüben {
+    width: 16%;
+    position: relative;
+    bottom: 35px;
+    right: 3px;
+}
+
+
+.gyereknap {
+    background-color:lightsalmon;
+    box-shadow: 5px 5px 10px black;
+    margin: 2%;
+    margin-bottom: 50px;
+}
+
+.masodik {
+    display:flex;
+}
+
+#gyereknapi {
+    width: 15%;
+    position: relative;
+    bottom: 35px;
+    right: 6px;
+}
+
+.Hetiakció {
+    background-color:lightsalmon;
+    box-shadow: 5px 5px 10px black;
+    margin: 2%;
+    margin-bottom: 50px;
+}
+
+.harmadik {
+    display:flex;
+}
+
+#Heti {
+    width: 16%;
+    position: relative;
+    bottom: 35px;
+    left: 40.8%;
+}
+
+footer {
+    background-color: whitesmoke;
+    display: flex;
 }
