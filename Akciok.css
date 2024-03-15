@@ -2,4 +2,31 @@
 
 html {
     font-family: sans-serif, 'Times New Roman';
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a {
+    background-color: darkred;
+    ;
+    color: yellow;
+    display: inline-block;
+    text-align: center;
+    margin: 1%;
+}
+
+h1 {
+    font-weight: bold;
+    color: brown;
+}
+
+h2 {
+    color: brown;
+    font-weight: bold;
+}
+
+#img1 {
+    width: 20%;
+    position:relative;
+    
 }
