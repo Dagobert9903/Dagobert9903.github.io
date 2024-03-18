@@ -15,7 +15,7 @@ body {
 
 a {
     background-color: brown;
-    color: gold;
+    color: rgb(237, 187, 94);
     text-align: center;
     box-shadow: 3px 3px 7px black;
     height: 50px;
@@ -65,15 +65,15 @@ p {
     font-size: xx-large;
     font-family: 'Quicksand';
     margin-left: 1%;
-    margin-top: 1.8%;
+    margin-top: 2%;
 }
 
 .kerdmenuben {
-    background-color:lightsalmon;
+    background-color:rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .elso {
@@ -89,11 +89,11 @@ p {
 
 
 .gyereknap {
-    background-color:lightsalmon;
+    background-color:rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-bottom: 50px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .masodik {
@@ -108,10 +108,10 @@ p {
 }
 
 .Hetiakció {
-    background-color:lightsalmon;
+    background-color:rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .harmadik {
@@ -127,6 +127,5 @@ p {
 
 footer {
     display:flow-root;
-    font-size: xx-small;
     color: whitesmoke;
 }
