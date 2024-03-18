@@ -1,19 +1,77 @@
 @import url('ts.googleapis.com/css?family=Quicksand|Open Sans|Roboto& display=swaphttps://fon');
 
-html{
-    font-family: 'Roboto', sans-serif;
-}
-h1{
-    color: brown;
-    font-family: 'Open Sans', 'Times New Roman';        
+html {
+    font-family: sans-serif, 'Times New Roman';
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: goldenrod;
 }
 
-thead{
+body {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    background-color: brown;
+    color: rgb(237, 187, 94);
+    text-align: center;
+    box-shadow: 3px 3px 7px black;
+    height: 50px;
+    position:relative;
+    top: 30px;
+}
+
+#Progress {
+    position: relative;
+    left: 17%;
+    font-size: xx-large;
+}
+
+#Étlap {
+    position: relative;
+    left: 40%;
+    font-size: xx-large;
+}
+
+
+#Akciók {
+    position:relative;
+    left: 61%;
+    font-size: xx-large;
+}
+
+h1 {
+    font-weight: bold;
+    color: brown;
+    margin-left: 2%;
+    margin-top: 4%;
+    font-size: xxx-large;      
+}
+
+thead {
     color: rgb(12, 210, 12);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    position: relative;
+    left: 230%;
 }
 
 tbody{
 
-    font-family: 'Quicksand', 'Times New Roman';
+    font-size: x-large;
+    font-family: 'Quicksand', 'Times New Roman'; 
+}
+
+.árak{
+    position:relative;
+    left: 320%;
+}
+
+.liter{
+    
+}
+.termék{
+    
 }
