@@ -2,8 +2,8 @@
 
 html {
     font-family: sans-serif, 'Times New Roman';
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: goldenrod;
 }
 
@@ -20,44 +20,52 @@ a {
     box-shadow: 3px 3px 7px black;
     height: 50px;
     position:relative;
-    top: 10px;
+    top: 30px;
 }
 
 #Progress {
     position: relative;
-    left: 20%;
+    left: 17%;
+    font-size: xx-large;
 }
 
 #Étlap {
     position: relative;
-    left: 45%;
+    left: 40%;
+    font-size: xx-large;
 }
 
 
 #Akciók {
     position:relative;
-    left: 66%;
+    left: 61%;
+    font-size: xx-large;
 }
 
 h1 {
     font-weight: bold;
     color: brown;
     margin-left: 2%;
+    position: relative;
+    top: 20px;
+    font-size: xxx-large;
 }
 
 h2 {
     color: brown;
     font-weight: bold;
     position: relative;
-    top: 15px;
+    top: 10px;
     display:inline-block;
     margin-left: 1%;
+    font-size: xx-large;
 }
 
 p {
-    font-size: larger;
+    font-size: xx-large;
     font-family: 'Quicksand';
     margin-left: 1%;
+    margin-top: 1.8%;
 }
 
 .kerdmenuben {
@@ -65,6 +73,7 @@ p {
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .elso {
@@ -74,8 +83,8 @@ p {
 #kérdmenüben {
     width: 16%;
     position: relative;
-    bottom: 35px;
-    right: 3px;
+    bottom: 40px;
+    right: 30px;
 }
 
 
@@ -84,6 +93,7 @@ p {
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .masodik {
@@ -93,15 +103,15 @@ p {
 #gyereknapi {
     width: 15%;
     position: relative;
-    bottom: 35px;
-    right: 6px;
+    bottom: 40px;
+    right: 30px;
 }
 
 .Hetiakció {
     background-color:lightsalmon;
     box-shadow: 5px 5px 10px black;
     margin: 2%;
-    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .harmadik {
@@ -111,11 +121,12 @@ p {
 #Heti {
     width: 16%;
     position: relative;
-    bottom: 35px;
-    left: 40.8%;
+    left: 43%;
+    bottom: 40px;
 }
 
 footer {
-    background-color: whitesmoke;
-    display: flex;
+    display:flow-root;
+    font-size: xx-small;
+    color: whitesmoke;
 }
