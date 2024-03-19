@@ -54,8 +54,7 @@ thead {
     color: rgb(12, 210, 12);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
-    position: relative;
-    left: 230%;
+    text-align: center;
 }
 
 tbody{
@@ -65,8 +64,7 @@ tbody{
 }
 
 .árak{
-    position:relative;
-    left: 320%;
+    text-align: right;
 }
 
 .liter{
