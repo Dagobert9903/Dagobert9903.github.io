@@ -16,14 +16,14 @@ body {
 a {
     background-color: brown;
     color: rgb(237, 187, 94);
-     text-align: center; 
+    text-align: center; 
     box-shadow: 3px 3px 7px black;
     height: 50px;
-    position:relative;
-    top: 30px;
+    /* position:relative;
+    top: 30px; */
     font-size: xx-large;
 }
-
+/*
 #Progress {
     position: relative;
     left: 17%;
@@ -39,7 +39,7 @@ a {
     position:relative;
     left: 61%;
 }
-
+*/
 
 h1 {
     font-weight: bold;
