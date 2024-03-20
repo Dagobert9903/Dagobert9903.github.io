@@ -2,15 +2,15 @@
 
 html {
     font-family: sans-serif, 'Times New Roman';
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: goldenrod;
 }
 
 body {
     background-color: whitesmoke;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 a {
@@ -18,28 +18,11 @@ a {
     color: rgb(237, 187, 94);
     text-align: center; 
     box-shadow: 3px 3px 7px black;
-    height: 50px;
-    /* position:relative;
-    top: 30px; */
+    width: 655px;
+    margin-top: 15px;
+    margin-left: 10px;
     font-size: xx-large;
 }
-/*
-#Progress {
-    position: relative;
-    left: 17%;
-}
-
-#Étlap {
-    position: relative;
-    left: 40%;
-}
-
-
-#Akciók {
-    position:relative;
-    left: 61%;
-}
-*/
 
 h1 {
     font-weight: bold;
@@ -120,7 +103,7 @@ p {
 #Heti {
     width: 16%;
     position: relative;
-    left: 43%;
+    left: 880px;
     bottom: 40px;
 }
 
