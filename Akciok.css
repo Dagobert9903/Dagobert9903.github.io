@@ -21,6 +21,7 @@ a {
     margin-top: 2.5%;
     margin-left: 3%;
     font-size: xx-large;
+    width: 655px;
 }
 
 h1 {
@@ -80,7 +81,7 @@ p {
     width: 15%;
     position: relative;
     bottom: 40px;
-    right: 30px;
+    right: 1.5%;
 }
 
 .Hetiakció {
@@ -99,7 +100,7 @@ p {
     width: 20%;
     position: relative;
     bottom: 40px;
-    left: 800px;
+    left: 41.2%;
 }
 
 footer {
