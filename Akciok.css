@@ -21,7 +21,9 @@ a {
     margin-top: 2.5%;
     margin-left: 3%;
     font-size: xx-large;
-    width: 655px;
+    position: static;
+    
+    
 }
 
 h1 {
