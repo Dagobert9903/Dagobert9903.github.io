@@ -5,6 +5,7 @@ html {
     margin-left: 10%;
     margin-right: 10%;
     background-color: goldenrod;
+    display: flex;
 }
 
 body {
@@ -21,9 +22,7 @@ a {
     margin-top: 2.5%;
     margin-left: 3%;
     font-size: xx-large;
-    position: static;
-    
-    
+    width: 655px;
 }
 
 h1 {
@@ -97,12 +96,11 @@ p {
     display:flex;
 }
 
-
 #Heti {
     width: 20%;
     position: relative;
-    bottom: 40px;
-    left: 41.2%;
+    bottom: 45px;
+    right: -41%;
 }
 
 footer {
