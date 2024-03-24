@@ -14,7 +14,7 @@ body {
     margin-bottom: 0%;
 }
 
-span {
+.linkek {
     display:flex;
 }
 
@@ -105,11 +105,15 @@ p {
     width: 20%;
     position: relative;
     bottom: 45px;
-
+    margin-right: 1.5%;
 }
 
 footer {
     color: whitesmoke;
     display: flex;
     margin-bottom: 0%;
+}
+
+#ureshely {
+    visibility: hidden;
 }
