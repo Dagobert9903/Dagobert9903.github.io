@@ -2,59 +2,41 @@
 
 html {
     font-family: sans-serif, 'Times New Roman';
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: goldenrod;
 }
 
 body {
     background-color: whitesmoke;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 a {
     background-color: brown;
     color: rgb(237, 187, 94);
-    text-align: center;
+    text-align: center; 
     box-shadow: 3px 3px 7px black;
-    height: 50px;
-    position:relative;
-    top: 30px;
-}
-
-#Progress {
-    position: relative;
-    left: 17%;
+    margin-top: 2.5%;
+    margin-left: 3%;
     font-size: xx-large;
-}
-
-#Étlap {
-    position: relative;
-    left: 40%;
-    font-size: xx-large;
-}
-
-
-#Akciók {
-    position:relative;
-    left: 61%;
-    font-size: xx-large;
+    width: 655px;
 }
 
 h1 {
     font-weight: bold;
     color: brown;
     margin-left: 2%;
-    margin-top: 4%;
-    font-size: xxx-large;      
+    font-size: xxx-large;
 }
 
 thead {
     color: rgb(12, 210, 12);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
-    text-align: center;
+    display: inline;
+    margin-left: 370%;
 }
 
 tbody{
@@ -63,13 +45,9 @@ tbody{
     font-family: 'Quicksand', 'Times New Roman'; 
 }
 
-.árak{
-    text-align: right;
+footer {
+    color: whitesmoke;
+    display: flex;
 }
 
-.liter{
-    
-}
-.termék{
-    
-}
+

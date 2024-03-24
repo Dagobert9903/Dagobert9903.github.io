@@ -5,6 +5,7 @@ html {
     margin-left: 10%;
     margin-right: 10%;
     background-color: goldenrod;
+
 }
 
 body {
@@ -13,15 +14,20 @@ body {
     margin-bottom: 0%;
 }
 
+span {
+    display:flex;
+}
+
 a {
     background-color: brown;
     color: rgb(237, 187, 94);
     text-align: center; 
     box-shadow: 3px 3px 7px black;
-    margin-top: 2.5%;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: xx-large;
-    width: 655px;
+    width: 30%;
+    margin-top: 1%;
 }
 
 h1 {
@@ -92,17 +98,18 @@ p {
 }
 
 .harmadik {
-    display:flex;
+    display: flex;
 }
 
 #Heti {
     width: 20%;
     position: relative;
     bottom: 45px;
- /*   right: -41%; */
+
 }
 
 footer {
     color: whitesmoke;
     display: flex;
+    margin-bottom: 0%;
 }
