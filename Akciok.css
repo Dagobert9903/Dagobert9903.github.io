@@ -15,13 +15,13 @@ body {
 }
 
 .linkek {
-    display:flex;
+    display: flex;
 }
 
 a {
     background-color: brown;
     color: rgb(237, 187, 94);
-    text-align: center; 
+    text-align: center;
     box-shadow: 3px 3px 7px black;
     margin-left: 2%;
     margin-right: 2%;
@@ -40,7 +40,7 @@ h1 {
 h2 {
     color: brown;
     font-weight: bold;
-    display:inline-block;
+    display: inline-block;
     margin-left: 1%;
     font-size: xx-large;
 }
@@ -53,7 +53,7 @@ p {
 }
 
 .kerdmenuben {
-    background-color:rgb(237, 187, 94);
+    background-color: rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-bottom: 1%;
@@ -61,7 +61,7 @@ p {
 }
 
 .elso {
-    display:flex;
+    display: flex;
 }
 
 #kérdmenüben {
@@ -73,14 +73,14 @@ p {
 
 
 .gyereknap {
-    background-color:rgb(237, 187, 94);
+    background-color: rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-top: 3%;
 }
 
 .masodik {
-    display:flex;
+    display: flex;
 }
 
 #gyereknapi {
@@ -91,7 +91,7 @@ p {
 }
 
 .Hetiakció {
-    background-color:rgb(237, 187, 94);
+    background-color: rgb(237, 187, 94);
     box-shadow: 5px 5px 10px black;
     margin: 2%;
     margin-top: 3%;
