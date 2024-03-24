@@ -16,12 +16,17 @@ body {
 a {
     background-color: brown;
     color: rgb(237, 187, 94);
-    text-align: center; 
+    text-align: center;
     box-shadow: 3px 3px 7px black;
-    margin-top: 2.5%;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: xx-large;
-    width: 655px;
+    width: 30%;
+    margin-top: 1%;
+}
+
+.linkek {
+    display: flex;
 }
 
 h1 {
