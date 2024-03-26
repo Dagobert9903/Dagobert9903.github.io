@@ -37,17 +37,36 @@ h1 {
 }
 
 thead {
-    color: rgb(12, 210, 12);
+    color: green;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
-    display: inline;
-    margin-left: 370%;
+    display: flex;
+}
+
+#Szendvicsek {
+    position: relative;
+    left: 450%;
+}
+
+#Köretek {
+    position: relative;
+    left: 700%;
+}
+
+#Italok {
+    position: relative;
+    left: 950%;
 }
 
 tbody{
 
     font-size: x-large;
     font-family: 'Quicksand', 'Times New Roman'; 
+}
+
+.árak {
+    position: relative;
+    left: 210%;
 }
 
 footer {
