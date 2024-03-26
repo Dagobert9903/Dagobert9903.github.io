@@ -48,9 +48,10 @@ thead {
     left: 450%;
 }
 
+
 #Köretek {
     position: relative;
-    left: 700%;
+    left: 710%;
 }
 
 #Italok {
@@ -61,13 +62,28 @@ thead {
 tbody{
 
     font-size: x-large;
-    font-family: 'Quicksand', 'Times New Roman'; 
+    font-family: 'Quicksand', 'Times New Roman';
+}
+
+#tbody1 {
+    background-color: aqua;
+}
+#tbody2 {
+    background-color: aqua;
+}
+#tbody3 {
+    background-color: aqua;
 }
 
 .árak {
     position: relative;
     left: 210%;
 }
+
+img{
+    width: 4%;
+}
+
 
 footer {
     color: whitesmoke;
