@@ -5,7 +5,6 @@ html {
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(237, 187, 94);
-
 }
 
 body {
@@ -27,6 +26,11 @@ a {
     font-size: xx-large;
     width: 30%;
     margin-top: 1%;
+}
+
+a:hover {
+    background-color: rgb(237, 187, 94);
+    color: brown;
 }
 
 h1 {

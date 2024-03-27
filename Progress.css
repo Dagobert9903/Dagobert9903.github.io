@@ -1,27 +1,70 @@
 @import url('ts.googleapis.com/css?family=Quicksand|Open Sans|Roboto& display=swaphttps://fon');
 
-html{
+html {
     font-family: sans-serif, 'Times New Roman';
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(237, 187, 94);
 }
 
-h1{
-    color:brown;
-    font-family: 'Open Sans', 'Times New Roman';
+body {
+    background-color: whitesmoke;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
-h2{
+.linkek {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: brown;
+    color: rgb(237, 187, 94);
+    text-align: center;
+    box-shadow: 3px 3px 7px black;
+    font-size: xx-large;
+    width: 30%;
+    margin-top: 1%;
+}
+
+a:hover {
+    background-color: rgb(237, 187, 94);
     color: brown;
-    font-family: 'Open Sans', 'Times New Roman';
 }
 
-h4{
-    font-weight: lighter;
+h1 {
+    color:brown;
+    margin-top: 4vmin;
+    margin-left: 3vmin;
+    font-size: xxx-large;
 }
 
-ul{
-    font-weight: lighter;
+h2 {
+    color: brown;
+    margin-top: 4vmin;
+    margin-left: 3vmin;
+    font-size: xx-large;
 }
 
-p{
-    font-weight: lighter;
+.muszaj {
+    font-size: x-large;
+    margin-left: 3vmin;
+}
+
+ul {
+    font-size: x-large;
+    margin-left: 3vmin;
+}
+
+p {
+    font-size: x-large;
+    margin-left: 3vmin;
+}
+
+#kep {
+    width: 60em;
+    height: 30em;
+    object-position:center;
+    display: ;
 }
