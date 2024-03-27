@@ -82,6 +82,21 @@ h2 {
     margin-right: 30vmin;
 }
 
+img {
+    width: 10vmin;
+    height: 10vmin;
+    margin-bottom: 5vmin;
+    margin-left: 2.3em;
+    margin-right: 2.3em;
+    position: relative;
+    top: 2vmin;
+}
+
+.elsokep {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 footer {
     color: whitesmoke;
