@@ -39,27 +39,24 @@ thead {
     color: green;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
-    display: flex;
 }
-
+ /*
+h3 {
+    display: flex;
+    justify-content: center;
+}
+*/
 
 
 tbody{
-
     font-size: x-large;
     font-family: 'Quicksand', 'Times New Roman';
 }
 
-
-.árak {
-    position: relative;
-    left: 210%;
+.Árak {
+    display: flex;
+    justify-content: end;
 }
-
-img{
-    width: 4%;
-}
-
 
 footer {
     color: whitesmoke;
