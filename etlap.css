@@ -38,27 +38,27 @@ h1 {
 h2 {
     color: green;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
+    font-size: xxx-large;
     display: flex;
     justify-content: center;
 }
 
 .Szendvicsek {
-    font-size: larger;
-}
-
-.Koretek {
-    font-size: larger;
-}
-
-.Italok {
-    font-size: larger;
+    font-size: x-large;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 .elso{
     display: flex;
     justify-content:space-between;
     background-color:lightgray;
+}
+
+.masodik{
+    display: flex;
+    justify-content:space-between;
+    background-color:red;
 }
 
 .elsooszlop {
@@ -82,6 +82,5 @@ h2 {
 footer {
     color: whitesmoke;
     display: flex;
+    margin-top: 0%;
 }
-
-
