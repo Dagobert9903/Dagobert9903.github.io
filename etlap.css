@@ -35,28 +35,49 @@ h1 {
     font-size: xxx-large;
 }
 
-thead {
+h2 {
     color: green;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: xx-large;
-}
- /*
-h3 {
     display: flex;
     justify-content: center;
 }
-*/
 
-
-tbody{
-    font-size: x-large;
-    font-family: 'Quicksand', 'Times New Roman';
+.Szendvicsek {
+    font-size: larger;
 }
 
-.Árak {
+.Koretek {
+    font-size: larger;
+}
+
+.Italok {
+    font-size: larger;
+}
+
+.elso{
     display: flex;
-    justify-content: end;
+    justify-content:space-between;
+    background-color:lightgray;
 }
+
+.elsooszlop {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 3vmin;
+}
+
+.masodikoszlop {
+    position: relative;
+    right: 50vmin;
+}
+
+.harmadikoszlop {
+    position: relative;
+    right: 30vmin;
+}
+
 
 footer {
     color: whitesmoke;
