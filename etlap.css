@@ -4,7 +4,7 @@ html {
     font-family: sans-serif, 'Times New Roman';
     margin-left: 10%;
     margin-right: 10%;
-    background-color: goldenrod;
+    background-color: rgb(237, 187, 94);
 }
 
 body {
@@ -18,8 +18,6 @@ a {
     color: rgb(237, 187, 94);
     text-align: center;
     box-shadow: 3px 3px 7px black;
-    margin-left: 2%;
-    margin-right: 2%;
     font-size: xx-large;
     width: 30%;
     margin-top: 1%;
@@ -27,6 +25,7 @@ a {
 
 .linkek {
     display: flex;
+    justify-content: space-evenly;
 }
 
 h1 {
@@ -43,21 +42,7 @@ thead {
     display: flex;
 }
 
-#Szendvicsek {
-    position: relative;
-    left: 450%;
-}
 
-
-#Köretek {
-    position: relative;
-    left: 710%;
-}
-
-#Italok {
-    position: relative;
-    left: 950%;
-}
 
 tbody{
 
@@ -65,15 +50,6 @@ tbody{
     font-family: 'Quicksand', 'Times New Roman';
 }
 
-#tbody1 {
-    background-color: aqua;
-}
-#tbody2 {
-    background-color: aqua;
-}
-#tbody3 {
-    background-color: aqua;
-}
 
 .árak {
     position: relative;
