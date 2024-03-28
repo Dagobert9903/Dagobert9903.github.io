@@ -62,9 +62,12 @@ p {
     margin-left: 3vmin;
 }
 
-#kep {
-    width: 60em;
-    height: 30em;
+img {
+    width: 70vmin;
+    height: 50vmin;
+    margin-bottom: 5vmin;
     margin-left: 3vmin;
-    display: flex;
-    }
+    margin-right: 2.3em;
+    position: relative;
+    top: 2vmin;
+}
