@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Első vége</title>
     <link rel="stylesheet" href="Rendeles.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.min.css">
+    <title>Rendelés</title>
+    
 </head>
 
 <body>
@@ -26,20 +28,19 @@
                         <legend>Valamit kell ide írni</legend>
                         <div class="mb-3">
                             <label class="form-label" for="name">Név: *</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="nameHelp" required>
-                            <div id="nameHelp" class="form-text">Rendelő neve.</div>
+                            <input type="text" class="form-control" id="name" placeholder="Név" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email cím: *</label>
+                            <input id="email" type="email" class="form-control" placeholder="Email cím" required>
                         </div>
                         <div>
-                            <label for="email">Email cím: *</label>
-                            <input id="email" name="name" type="text" required>
+                            <label class="form-label" for="adress">Cím: *</label>
+                            <input id="adress" class="form-control" type="text" placeholder="Cím" required>
                         </div>
                         <div>
-                            <label for="adress">Cím: *</label>
-                            <input id="adress" name="adress" type="text" required>
-                        </div>
-                        <div>
-                            <label for="comment">Megjegyzés:</label>
-                            <textarea id="comment" name="comment" rows="5"></textarea>
+                            <label class="form-label" for="comment">Megjegyzés:</label>
+                            <textarea class="form-control" id="comment" rows="5"></textarea>
                         </div>
 
                         <span>Extra feltét:</span>

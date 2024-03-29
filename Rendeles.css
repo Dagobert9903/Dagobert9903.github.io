@@ -26,9 +26,14 @@ a {
     font-size: xx-large;
     width: 20%;
     margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 a:hover {
     background-color: rgb(237, 187, 94);
     color: brown;
+}
+
+.form-label {
+    margin-top: 1.2em;
 }
