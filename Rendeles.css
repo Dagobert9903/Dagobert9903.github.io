@@ -1,0 +1,34 @@
+@import url('ts.googleapis.com/css?family=Quicksand|Open Sans|Roboto& display=swaphttps://fon');
+
+html {
+    font-family: sans-serif, 'Times New Roman';
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(237, 187, 94);
+}
+
+body {
+    background-color: whitesmoke;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.linkek {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: brown;
+    color: rgb(237, 187, 94);
+    text-align: center;
+    box-shadow: 3px 3px 7px black;
+    font-size: xx-large;
+    width: 20%;
+    margin-top: 1%;
+}
+
+a:hover {
+    background-color: rgb(237, 187, 94);
+    color: brown;
+}
