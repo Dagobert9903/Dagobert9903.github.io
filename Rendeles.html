@@ -35,53 +35,59 @@
                             <input id="email" type="email" class="form-control" placeholder="Email cím" required>
                         </div>
                         <div>
-                            <label class="form-label" for="adress">Cím: *</label>
-                            <input id="adress" class="form-control" type="text" placeholder="Cím" required>
+                            <label class="form-label" for="address">Cím: *</label>
+                            <input id="address" class="form-control" type="text" placeholder="Cím" required>
                         </div>
                         <div>
                             <label class="form-label" for="comment">Megjegyzés:</label>
                             <textarea class="form-control" id="comment" rows="5"></textarea>
                         </div>
-
-                        <span>Extra feltét:</span>
+                        
                         <div>
-                            <input checked id="nothing" name="extra" type="radio" value="0">
+                            <label class="form-label" for="topping">Extra feltét</label>
+                        </div>
+                        
+                        <div>
+                            <input class="form-topping" checked id="nothing" name="extra" type="radio" value="0">
                             <label for="nothing">Nem kérek</label>
                         </div>
                         <div>
-                            <input id="cheese" name="extra" type="radio" value="300">
-                            <label for="cheese">feltét 1</label>
+                            <input class="form-topping" id="cheese" name="extra" type="radio" value="300">
+                            <label for="cheese">Sajt (+300 Ft)</label>
                         </div>
                         <div>
-                            <input id="double-cheese" name="extra" type="radio" value="600">
-                            <label for="double-cheese">feltét 2</label>
+                            <input class="form-topping" id="double-cheese" name="extra" type="radio" value="600">
+                            <label for="double-cheese">Bacon (+400 Ft)</label>
                         </div>
                         <div>
-                            <input id="double-meat" name="extra" type="radio" value="1000">
-                            <label for="double-meat">feltét 3</label>
+                            <input class="form-topping" id="double-meat" name="extra" type="radio" value="1000">
+                            <label for="double-meat">Dupla hús (+1000 Ft)</label>
                         </div>
                         <div>
-                            <input id="double-double" name="extra" type="radio" value="1600">
-                            <label for="double-double">feltét 4</label>
+                            <input class="form-topping" id="double-double" name="extra" type="radio" value="1600">
+                            <label for="double-double">Sajt és bacon (+700 Ft)</label>
                         </div>
                         <div>
-                            <input id="valami-mas" name="extra" type="radio" value="1800">
-                            <label for="valami-mas">feltét 5</label>
+                            <input class="form-topping" id="valami-mas" name="extra" type="radio" value="1800">
+                            <label for="valami-mas">Sajt és dupla hús (+1300 Ft)</label>
                         </div>
                         <div>
-                            <label for="sauce">Szósz:</label>
-                            <select name="sauce" id="sauce">
-                                <option value="0" selected>szósz 1</option>
-                                <option value="100">szósz 2</option>
+                            <label class="form-label" for="sauce">Szósz</label>
+                        </div>
+                        <div>
+                            <select class="form-control" id="sauce" type="text">
+                                <option value="0" selected>Hagyományos</option>
+                                <option value="100">Csipős (+100 Ft)</option>
                             </select>
                         </div>
                         <div>
-                            <label for="quantity">Mennyiség: </label>
-                            <input id="quantity" name="quantity" type="number" min="1" max="10">
+                            <label class="form-label" for="quantity">Mennyiség: </label>
+                            <input class="form-control" id="quantity" type="number" min="1" max="10">
                         </div>
 
                         <div>
-                            <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
+                            <label class="form-label" for="price">Ár: 1200 Ft</label>
+                            <input class="form-button" type="button" value="Rendelés leadása">
                         </div>
                     </fieldset>
                 </form>
@@ -91,5 +97,11 @@
     </div>
 
 </body>
+
+<footer>
+    <p>
+
+    </p>
+</footer>
 
 </html>

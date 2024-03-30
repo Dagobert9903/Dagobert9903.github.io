@@ -18,9 +18,9 @@ body {
     justify-content: space-evenly;
 }
 
-a {
-    background-color: brown;
+a{
     color: rgb(237, 187, 94);
+    background-color: brown;
     text-align: center;
     box-shadow: 3px 3px 7px black;
     font-size: xx-large;
@@ -31,9 +31,27 @@ a {
 
 a:hover {
     background-color: rgb(237, 187, 94);
-    color: brown;
+    color:brown;
 }
+
 
 .form-label {
     margin-top: 1.2em;
+    font-size: x-large;
+}
+
+.form-topping {
+    margin-top: 0.5em;
+    font-size: xx-large;
+}
+
+.form-button{
+    background-color: green;
+    color: whitesmoke;
+    margin: 1em;
+}
+
+footer{
+    background-color: whitesmoke;
+    display: flex;
 }
