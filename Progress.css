@@ -63,8 +63,8 @@ p {
 }
 
 img {
-    width: 70vmin;
-    height: 50vmin;
+    min-width: 70vmin;
+    min-height: 50vmin;
     margin-bottom: 5vmin;
     margin-left: 3vmin;
     margin-right: 2.3em;
