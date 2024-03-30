@@ -74,12 +74,13 @@ h2 {
 }
 
 .masodikoszlop {
-    position:static;
+    position: relative;
+    right: 40vmin;
 }
 
 .harmadikoszlop {
     position: static;
-    margin-right: 30vmin;
+    margin-right: 20vmin;
 }
 
 img {
