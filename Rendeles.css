@@ -45,9 +45,8 @@ a:hover {
     font-size: xx-large;
 }
 
-.form-button{
-    background-color: green;
-    color: whitesmoke;
+button{
+    
     margin: 1em;
 }
 
