@@ -45,6 +45,10 @@ a:hover {
     font-size: xx-large;
 }
 
+.price{
+    font-size: x-large;
+}
+
 button{
     
     margin: 1em;

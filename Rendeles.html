@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="Rendeles.css">
     <link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.min.css">
     <title>Rendelés</title>
-    
+
 </head>
 
 <body>
@@ -41,11 +41,10 @@
                             <label class="form-label" for="comment">Megjegyzés:</label>
                             <textarea class="form-control" id="comment" rows="5"></textarea>
                         </div>
-                        
+
                         <div>
                             <label class="form-label" for="topping">Extra feltét</label>
                         </div>
-                        
                         <div>
                             <input class="form-topping" checked id="nothing" name="extra" type="radio" value="0">
                             <label for="nothing">Nem kérek</label>
@@ -73,20 +72,23 @@
                         <div>
                             <label class="form-label" for="sauce">Szósz</label>
                         </div>
+
                         <div>
-                            <select class="form-control" id="sauce" type="text" required>
+                            <select name="sauce" class="form-control" id="sauce" type="text" required>
                                 <option value="0" selected>Hagyományos</option>
                                 <option value="100">Csipős (+100 Ft)</option>
                             </select>
                         </div>
-                        <div>
-                            <label class="form-label" for="quantity">Mennyiség: </label>
-                            <input class="form-control" id="quantity" type="number" min="1" max="10" required>
-                        </div>
 
                         <div>
-                            <label class="form-label" for="price">Ár: 1200 Ft</label>
-                            <button class="btn btn-success" type="button">Rendelés leadása</button>
+                            <label class="form-label" for="quantity">Mennyiség: </label>
+                            <input name="amount-input" class="form-control" id="quantity" type="number" min="1" max="10" required>
+                        </div>
+
+                        <div class="price">
+                            Ár: <span class="message" id="message">0</span> Ft
+                            <button onclick="SendOrderData" class="btn btn-success" type="button">Rendelés
+                                leadása</button>
                         </div>
                     </fieldset>
                 </form>
@@ -94,7 +96,8 @@
             <div class="col-4"></div>
         </div>
     </div>
-   
+
+    <script src="js\Rendeles.js"></script>
 </body>
 
 <footer>
