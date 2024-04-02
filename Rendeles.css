@@ -57,6 +57,7 @@ button{
 footer{
     background-color: whitesmoke;
     display: flex;
+    margin-top: 2em;
 }
 
 .name{
