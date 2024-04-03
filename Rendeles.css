@@ -63,3 +63,8 @@ footer{
 .name{
     font-size: x-large;
 }
+
+#message{
+    color: green;
+    font-size: larger;
+}
