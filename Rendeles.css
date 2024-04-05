@@ -69,3 +69,10 @@ footer{
     font-size: larger;
     font-weight: 500;
 }
+
+#hazhozszallitas {
+    font-size: x-large;
+    color: green;
+    text-align: center;
+    margin-top: 1em;
+}
