@@ -4,9 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legjobb kajálda</title>
     <link rel="stylesheet" href="Progress.css">
+    <link rel="stylesheet" href="Weather.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.min.css">
 
 </head>
 <body>
+
+    <div class="Weather" style="display: block;">
+        Időjárás
+        <select class="form-control" type="text" name="day" id="day">
+            <option value="0" selected>Monday</option>
+            <option value="10">Tuesday</option>
+            <option value="20">Wednesday</option>
+            <option value="30">Thursday</option>
+            <option value="40">Friday</option>
+            <option value="50">Saturday</option>
+            <option value="60">Sunday</option>
+        </select>
+
+    </div>
 
     <span class="linkek">
         <a href="Progress.html" style="display: block;">Elérhetőség</a>
@@ -15,7 +31,7 @@
         <a href="Akciok.html" style="display: block;">Akciók</a>
     </span>
 
-    <h1><b>Elérhetőségünk</b></h1>
+    <h1>Elérhetőségünk</h1>
 
     <h2>Címünk</h2>
 
@@ -40,10 +56,11 @@
     <h2>Megközelítés</h2>
 
     <p>Autóval a Hengermalom utcában lehet parkolni.</p>
-
     <p>Tömegközlekedéssel a 103 busz Hengermalom úti végállomásánál, illetve a 33, 133E buszokkal a Hengermalom úti megállóban lehet leszállni.</p>
 
     <div>
     <img src="img\google_maps.JPG" alt="Tasty burgir">
     </div>
-</body></html>
+    <script src="js\Weather.js"></script>
+</body>
+</html>

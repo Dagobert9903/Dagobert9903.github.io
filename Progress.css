@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: whitesmoke;
-    margin-top: 0%;
+    margin-top: 0vmin;
     margin-bottom: 0%;
 }
 
@@ -37,12 +37,11 @@ h1 {
     color:brown;
     margin-top: 4vmin;
     margin-left: 3vmin;
-    font-size: xxx-large;
 }
 
 h2 {
     color: brown;
-    margin-top: 4vmin;
+    margin-top: 3vmin;
     margin-left: 3vmin;
     font-size: xx-large;
 }
