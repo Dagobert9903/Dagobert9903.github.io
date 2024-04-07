@@ -2678,7 +2678,7 @@ textarea.form-control-lg {
 
 .btn-check:disabled+.btn,.btn-check[disabled]+.btn {
     pointer-events: none;
-    filter: none;
+    filter: none; 
     opacity: .65
 }
 
@@ -3193,7 +3193,7 @@ textarea.form-control-lg {
     user-select: none;
     border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
     border-radius: var(--bs-btn-border-radius);
-    background-color: var(--bs-btn-bg);
+    /* background-color: var(--bs-btn-bg); */
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
 }
 
@@ -3204,8 +3204,8 @@ textarea.form-control-lg {
 }
 
 .btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
+    /* color: var(--bs-btn-hover-color); */
+    /* background-color: var(--bs-btn-hover-bg); */
     border-color: var(--bs-btn-hover-border-color)
 }
 
@@ -3230,8 +3230,8 @@ textarea.form-control-lg {
 }
 
 .btn-check:checked+.btn,.btn.active,.btn.show,.btn:first-child:active,:not(.btn-check)+.btn:active {
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
+    /* color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg); */
     border-color: var(--bs-btn-active-border-color)
 }
 

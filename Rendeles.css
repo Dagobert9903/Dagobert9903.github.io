@@ -18,7 +18,7 @@ body {
     justify-content: space-evenly;
 }
 
-a{
+a {
     color: rgb(237, 187, 94);
     background-color: brown;
     text-align: center;
@@ -31,7 +31,7 @@ a{
 
 a:hover {
     background-color: rgb(237, 187, 94);
-    color:brown;
+    color: brown;
 }
 
 
@@ -45,26 +45,26 @@ a:hover {
     font-size: xx-large;
 }
 
-.price{
+.price {
     font-size: x-large;
 }
 
-button{
-    
+button {
+
     margin: 1em;
 }
 
-footer{
+footer {
     background-color: whitesmoke;
     display: flex;
     margin-top: 2em;
 }
 
-.name{
+.name {
     font-size: x-large;
 }
 
-#message{
+#message {
     color: green;
     font-size: larger;
     font-weight: 500;
