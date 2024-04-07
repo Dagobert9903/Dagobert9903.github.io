@@ -214,7 +214,7 @@ hr {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    color: var(--bs-heading-color)
+    /* color: var(--bs-heading-color) */
 }
 
 .h1,h1 {
