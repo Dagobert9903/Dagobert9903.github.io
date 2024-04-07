@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body onload="weatherWidget()">
 
     <div class="Weather" style="display: block;">
 
@@ -25,15 +25,15 @@
 
             <select class="form-control" type="text" name="day" id="day">
                 <option value="0" selected>Monday</option>
-                <option value="10">Tuesday</option>
-                <option value="20">Wednesday</option>
-                <option value="30">Thursday</option>
-                <option value="40">Friday</option>
-                <option value="50">Saturday</option>
-                <option value="60">Sunday</option>
+                <option value="1">Tuesday</option>
+                <option value="2">Wednesday</option>
+                <option value="3">Thursday</option>
+                <option value="4">Friday</option>
+                <option value="5">Saturday</option>
+                <option value="6">Sunday</option>
             </select>
 
-            <button onload="weatherWidget()" onclick="weatherWidget()" class="btn" type="button">Mutasd!</button>
+            <button onclick="weatherWidget()" class="btn" type="button">Mutasd!</button>
         </div>
     </div>
 

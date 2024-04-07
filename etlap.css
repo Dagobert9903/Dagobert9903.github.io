@@ -38,6 +38,7 @@ h1 {
     color: brown;
     margin-left: 2%;
     font-size: xxx-large;
+    margin-top: 1.5em;
 }
 
 h2 {
@@ -96,6 +97,7 @@ img {
 .elsokep {
     display: flex;
     justify-content: space-between;
+    margin-top: 3em;
 }
 
 

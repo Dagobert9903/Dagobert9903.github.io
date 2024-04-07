@@ -7,10 +7,35 @@
 
     <title>Legjobb kajálda akciói</title>
     <link rel="stylesheet" href="Akciok.css">
+    <link rel="stylesheet" href="Weather.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist\css\bootstrap.Progress.css">
 
 </head>
 
-<body>
+<body onload="weatherWidget()">
+
+    <div class="Weather" style="display: block;">
+
+        <div class="elsosor">
+            <span id="idojaras">Időjárás</span>
+            <div id="temperature"></div>
+        </div>
+
+        <div class="napokGomb">
+
+            <select class="form-control" type="text" name="day" id="day">
+                <option value="0" selected>Monday</option>
+                <option value="1">Tuesday</option>
+                <option value="2">Wednesday</option>
+                <option value="3">Thursday</option>
+                <option value="4">Friday</option>
+                <option value="5">Saturday</option>
+                <option value="6">Sunday</option>
+            </select>
+
+            <button onclick="weatherWidget()" class="btn" type="button">Mutasd!</button>
+        </div>
+    </div>
 
     <span class="linkek">
         <a href="Progress.html" style="display: block;">Elérhetőség</a>
@@ -62,6 +87,7 @@
             <img id="Heti" src="img/hetiakcio.jpg" alt="Heti akciónk">
         </div>
     </div>
+    <script src="js\Weather.js"></script>
 </body>
 <footer>
 </footer>
