@@ -3204,8 +3204,8 @@ textarea.form-control-lg {
 }
 
 .btn:hover {
-    color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
+    /* color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg); */
     border-color: var(--bs-btn-hover-border-color)
 }
 
@@ -3230,8 +3230,8 @@ textarea.form-control-lg {
 }
 
 .btn-check:checked+.btn,.btn.active,.btn.show,.btn:first-child:active,:not(.btn-check)+.btn:active {
-    color: var(--bs-btn-active-color);
-    background-color: var(--bs-btn-active-bg);
+    /* color: var(--bs-btn-active-color);
+    background-color: var(--bs-btn-active-bg); */
     border-color: var(--bs-btn-active-border-color)
 }
 
