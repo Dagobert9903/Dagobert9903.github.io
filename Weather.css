@@ -30,7 +30,7 @@
 
 .elsosor{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 #idojaras{
@@ -39,4 +39,5 @@
 
 #temperature{
     margin: 0.5em;
+    text-align: end;
 }
