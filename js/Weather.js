@@ -14,8 +14,42 @@ function weatherWidget() {
     temperatureDiv.innerHTML = temperatures[day] + ' &deg;C';
     for (let i = 0; i < temperatureUpperLimits.length; i++) {
         if (temperatures[day] <= temperatureUpperLimits[i]) {
-            temperatureDiv.innerHTML += '<br><span class="offer">' + offers[i] + '</span>';
+            temperatureDiv.innerHTML += '<br>' + offers[i] + '</span>';
             break;
         }
     }
+}
+
+document.getElementById('min').innerHTML = "Minimum: " + minTemperature() + ' &deg;C';
+document.getElementById('max').innerHTML = "Maximum: " + maxTemperature() + ' &deg;C';
+document.getElementById('avg').innerHTML = "Átlag: " + avgTemperature().toFixed(2) + ' &deg;C';
+
+function minTemperature() {
+    let min = temperatures.length != 0 ? temperatures[0] : 0;
+    for (let i = 0; i < temperatures.length; i++) {
+        if (temperatures[i] < min) {
+            min = temperatures[i]
+        }
+    }
+    return min;
+}
+
+
+function maxTemperature() {
+    let max = temperatures.length != 0 ? temperatures[0] : 0;
+    for (let i = 0; i < temperatures.length; i++) {
+        if (temperatures[i] > max) {
+            max = temperatures[i]
+        }
+    }
+    return max;
+}
+
+
+function avgTemperature() {
+    let avg = 0;
+    for (let i = 0; i < temperatures.length; i++) {
+        avg += temperatures[i];
+    }
+    return temperatures.length != 0 ? avg / temperatures.length : 0;
 }

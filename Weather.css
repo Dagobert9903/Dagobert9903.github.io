@@ -13,15 +13,19 @@
 #day {
     width: 11em;
     margin-left: 1.2em;
-    margin-top: 2em;
     height: 3em;
     text-align: start;
+    position: relative;
+    bottom: 6em;
 }
 
 #idojarasGomb{
     width: 10em;
     height: 3em;
     background-color: rgb(237, 187, 94);
+    display: block;
+    position: relative;
+    bottom: 8em;
 }
 
 .napokGomb{
@@ -40,4 +44,12 @@
 #temperature{
     margin: 0.5em;
     text-align: end;
+}
+
+.minMaxAvg{
+    display: flex;
+    position: relative;
+    top: 2.5em;
+    justify-content: space-between;
+    margin: 0.5em;
 }
